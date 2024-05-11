@@ -77,6 +77,7 @@
         </div>
       </div>
     </div>
+    
     <!--Header-Top Section-->
     <!--Header Section-->
     <header class="header-section bgadd">
@@ -84,19 +85,37 @@
         <div class="header-wrapper">
           <div class="logo-menu">
             <a href="index.html" class="logo">
-              <img src="./assets/logo.png" alt="logo" />
+              <img src="./assets/logo.png" alt="logo"/>
             </a>
           </div>
+            <button onclick="toggleElement()" class="meanmenu-reveal">
+              <img src="./assets/bars-solid.svg" alt="">
+            </button>
           <div class="main-menu-nav">
             <ul class="main-menu">
               <li><a href="index.html">Home</a></li>
               <li><a href="./contactUs.html">Contact Us</a></li>
             </ul>
           </div>
+
         </div>
       </div>
     </header>
     <!--Header Section-->
+    <nav class="mean-nav">
+                    <ul class="main-menu" style="">
+                        <li>
+                            <a href="index.html" class="fz-24">
+                                Home
+                            </a>
+                           </li>
+                        <li class="mean-last">
+                            <a href="contactUs.html">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+    </nav>
     <!-- /Header Area -->
 
     <!-- Innerpage Title Area -->
@@ -152,7 +171,7 @@
                     <img src="assets/c-1.png" alt="" />
                     <h4>Email</h4>
                     <p>Our friendly team is here to help.</p>
-                    <a href="#">example@gmail.com</a>
+                    <a href="#">careverge.enterprises@gmail.com</a>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -197,7 +216,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                       </li>
                       <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -289,7 +308,7 @@
             <div class="col-md-3">
               <div class="fl-widgets">
                 <img
-                  src="assets/img/logo-white.png"
+                  src="assets/logo-white.jpg"
                   alt=""
                   class="footer-logo"
                 />
@@ -299,7 +318,7 @@
                 </div>
                 <div class="fl-single-w">
                   <p>Email Us</p>
-                  <h4>careverge.enterprises@gmail.com</h4>
+                  <h4 style="font-size: initial;">careverge.enterprises@gmail.com</h4>
                 </div>
               </div>
             </div>
@@ -308,26 +327,22 @@
                 <h4>Services</h4>
                 <div class="fw-links">
                   <ul>
-                    <li>
-                      <a href="service-details.html">Business insurance</a>
-                    </li>
-                    <li><a href="service-details.html">Home Insurance</a></li>
                     <li><a href="service-details.html">Life Insurance</a></li>
                     <li><a href="service-details.html">Health Insurance</a></li>
-                    <li>
-                      <a href="service-details.html">Marriage insurance</a>
-                    </li>
-                  </ul>
+                    <li><a href="service-details.html">Motor Insurance</a></li>
+                    <li><a href="service-details.html">Fire Insurance</a></li>
+                    <li><a href="service-details.html">Burglary Insurance</a></li>
+                    <li><a href="service-details.html">Liability Insurance</a></li>
+                    <li><a href="service-details.html">Accidental Insurance</a></li>
+                  </ul> 
                   <ul>
                     <li><a href="service-details.html">Travel Insurance</a></li>
-                    <li><a href="service-details.html">Cyber Insurance</a></li>
-                    <li>
-                      <a href="service-details.html">Vehicle Insurance</a>
-                    </li>
-                    <li>
-                      <a href="service-details.html">Disability Insurance</a>
-                    </li>
-                    <li><a href="service-details.html">Fire Insurance</a></li>
+                    <li><a href="service-details.html">Transit Insurance</a></li>
+                    <li><a href="service-details.html">Group Health Insurance</a></li>
+                    <li><a href="service-details.html">Group Accidental Insurance</a></li>
+                    <li><a href="service-details.html">Group Life Insurance</a></li>
+                    <li><a href="service-details.html">Employer Employee Insurance</a></li>
+                    <li><a href="service-details.html">Key Man Insurance</a></li>
                   </ul>
                 </div>
               </div>
@@ -338,9 +353,6 @@
                 <div class="fw-links">
                   <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="our-team.html">Our Team</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                   </ul>
                 </div>
@@ -462,5 +474,6 @@
         </div>
       </div>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
