@@ -15,3 +15,13 @@ function toggleElement() {
     }
   }
 }
+
+function redirectToWhatsApp(number) {
+  // Check if the number is valid
+  if (/^\d{10}$/.test(number)) {
+    // Redirect to WhatsApp with the specified number
+    window.location.href = `https://wa.me/${number}`;
+  } else {
+    console.error("Invalid WhatsApp number format");
+  }
+}
