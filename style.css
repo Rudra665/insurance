@@ -356,11 +356,11 @@ img.wcu-bg {
   text-align: center;
   margin-bottom: 50px;
 }
-.gclients-header h4 {
-  font-size: 30px;
+.gclients-header h2 {
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 65px;
   color: #0e1941;
   display: block;
   position: relative;
@@ -1762,7 +1762,7 @@ button.meanmenu-reveal {
  .mean-nav {
     float: left;
     z-index: 100;
-    position: fixed;
+    position: absolute;
     width: 100%;
     background: #0c1923;
 }
