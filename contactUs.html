@@ -230,7 +230,7 @@ Uttar Pradesh
           <div class="col-md-6">
             <div class="contact-form-map">
               <div class="cform">
-                <form id="contactForm" action="./sendEmail.php" method="post">
+                <form id="contactForm" onsubmit="handleSubmit(event)">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="policy-form-group">
@@ -240,6 +240,7 @@ Uttar Pradesh
                           name="full_name"
                           id="full_name"
                           placeholder="Full name"
+                          required
                         />
                       </div>
                     </div>
@@ -247,10 +248,11 @@ Uttar Pradesh
                       <div class="policy-form-group">
                         <label for="phone">Phone Number*</label>
                         <input
-                          type="text"
+                          type="number"
                           name="phone"
                           id="phone"
                           placeholder="Phone Number"
+                          required
                         />
                       </div>
                     </div>
@@ -261,7 +263,8 @@ Uttar Pradesh
                           type="email"
                           name="email_address"
                           id="email_address"
-                          placeholder="Email Address "
+                          placeholder="Email Address"
+                          required
                         />
                       </div>
                     </div>
@@ -272,12 +275,13 @@ Uttar Pradesh
                           name="msg"
                           id="msg"
                           placeholder="Leave us a message..."
+                          required
                         ></textarea>
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="policy-form-group pfg-check">
-                        <input type="checkbox" name="agree" id="agree" /><span
+                        <input type="checkbox" name="agree" id="agree" required/><span
                           >You agree to our friendly privacy policy.</span
                         >
                       </div>

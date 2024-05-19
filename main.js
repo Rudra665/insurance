@@ -25,3 +25,20 @@ function redirectToWhatsApp(number) {
     console.error("Invalid WhatsApp number format");
   }
 }
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const fullName = document.getElementById("full_name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email_address").value;
+  const message = document.getElementById("msg").value;
+
+  const subject = encodeURIComponent("New Contact Form Submission");
+  const body = encodeURIComponent(
+    `Name: ${fullName}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`
+  );
+
+  const mailtoLink = `mailto:careverge.enterprises@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = mailtoLink;
+}
