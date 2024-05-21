@@ -44,7 +44,7 @@ function handleSubmit(event) {
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
-  const ticker = document.querySelector(".img-ticker");
+  const ticker = document.querySelector(".img-ticker-inner");
   const images = ticker.innerHTML;
   ticker.innerHTML += images; // Duplicate images for seamless scroll
 });

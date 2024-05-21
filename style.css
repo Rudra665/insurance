@@ -187,7 +187,7 @@ p {
 }
 .insurance-plan-area {
   position: relative;
-  padding: 100px 0px;
+  padding: 50px 0px;
   background-color: #e5ebf5;
 }
 .insurance-plan-area .section-head {
@@ -196,12 +196,15 @@ p {
   margin: 0px auto 50px;
 }
 .single-i-plan {
-  position: relative;
-  background-color: #fff;
-  padding: 40px;
-  height: 200px;
-  border: 1px solid #e5ebf5;
-  text-align: left;
+position: relative;
+    background-color: #fff;
+    padding: 20px 40px;
+    justify-content: center;
+    height: 200px;
+    border: 1px solid #e5ebf5;
+    text-align: left;
+    align-items: center;
+    display: flex;
 }
 .single-i-plan .sip-icon {
   position: relative;
@@ -242,8 +245,9 @@ p {
 }
 .single-i-plan.sipq-more {
   background-color: #0033a0;
+  display: block !important;
   text-align: center;
-  padding: 20px 40px;
+  padding: 30px 40px;
 }
 .single-i-plan.sipq-more p {
   font-size: 18px;
@@ -1427,7 +1431,7 @@ img {
 }
 .key-features-area {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   background-color: #f3f6f9;
 }
 .key-features-area .section-head {
@@ -1912,26 +1916,29 @@ button.meanmenu-reveal img{
     }
 }
 .img-ticker {
-    display: flex;
-    /* white-space: nowrap; */
-    animation: slide 20s linear infinite;
-}
+  width: auto;
+  overflow-x: hidden;
+            /* white-space: nowrap; */
+        }
 
-.img-ticker img {
-    flex-shrink: 0;
-    height: auto;
-}
 
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-2110px);
-    }
-}
+        .img-ticker .img-ticker-inner {
+            display: flex;
+            flex-shrink: 0;
+            animation: slide 30s linear infinite;
+            height: auto;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-2500px);
+            }
+        }
   .br-logo {
-    width: 8rem;
+    width: 10rem;
     flex: none;
     border: 1px solid #9c9c9c;
     margin: 0 1rem 0 1rem;
@@ -1942,3 +1949,5 @@ button.meanmenu-reveal img{
   .mean-nav{
     display: none;
   }
+
+  
