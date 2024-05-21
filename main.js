@@ -42,3 +42,9 @@ function handleSubmit(event) {
   const mailtoLink = `mailto:careverge.enterprises@gmail.com?subject=${subject}&body=${body}`;
   window.location.href = mailtoLink;
 }
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  const ticker = document.querySelector(".img-ticker");
+  const images = ticker.innerHTML;
+  ticker.innerHTML += images; // Duplicate images for seamless scroll
+});
