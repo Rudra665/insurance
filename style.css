@@ -353,7 +353,7 @@ img.wcu-bg {
 }
 .partners {
   position: relative;
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 .gclients-header {
   position: relative;
@@ -1348,7 +1348,7 @@ textarea {
   color: #3e4767;
   display: block;
 }
-@media screen {
+@media only screen and (max-width: 991px){
   .section-head h4{
     font-size: 36px !important;
   }
