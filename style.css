@@ -198,7 +198,7 @@ p {
 .single-i-plan {
 position: relative;
     background-color: #fff;
-    padding: 20px 40px;
+    padding: 0px 20px;
     justify-content: center;
     height: 200px;
     border: 1px solid #e5ebf5;
@@ -241,7 +241,7 @@ position: relative;
   display: block;
   color: #3e4767;
   position: relative;
-  margin: 10px auto;
+  margin: 5px auto;
 }
 .single-i-plan.sipq-more {
   background-color: #0033a0;
