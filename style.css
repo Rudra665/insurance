@@ -361,13 +361,24 @@ img.wcu-bg {
   margin-bottom: 50px;
 }
 .gclients-header h2 {
-  font-size: 48px;
+  font-size: 43px;
   font-style: normal;
   font-weight: 600;
   line-height: 65px;
   color: #0e1941;
   display: block;
   position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .gclients-header h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65px;
+  color: #0e1941;
+  display: block;
+  position: relative;
+}
 }
 .clients-lis-bot {
   position: relative;
